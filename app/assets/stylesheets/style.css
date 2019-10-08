@@ -1,0 +1,18 @@
+body {
+  background-color: #E5E2FF;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  font-size: 80px;
+}
+
+#header {
+  padding: 42px 204px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
