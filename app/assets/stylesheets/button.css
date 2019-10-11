@@ -23,7 +23,7 @@
 #shape {
   stroke-width: 6px;
   fill: transparent;
-  stroke: #06D6A0 ;
+  stroke: #67e836 ;
   stroke-dasharray: 286 00;
   stroke-dashoffset: -220;
   transition: 1s all ease;
@@ -63,6 +63,6 @@
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke: #958CFF;
+  stroke: #BBFFA0;
 }
 
