@@ -1,0 +1,69 @@
+<div class="d-flex justify-content-around">
+  
+ <!--  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+       <span class="spot"><%= link_to 'Home', root_path %></span>
+      </div>
+    </svg>
+  </div>    -->
+
+  <%= link_to root_path do %>
+    <%= image_tag 'icon', width:50 %> 
+  <% end %> 
+  
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+       <span class="spot"><%= link_to 'Tours', tours_path %></span>
+      </div>
+    </svg>
+  </div>
+
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+        <span class="spot"><%= link_to 'Videos', videos_path %></span>
+      </div>
+    </svg>
+  </div>
+
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+        <span class="spot"><%= link_to 'Portraits', portraits_path %></span>
+      </div>
+    </svg>
+  </div>
+
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+        <span class="spot"><%= link_to 'Live', lives_path %></span>
+      </div>
+    </svg>
+  </div>
+
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+      <div id="text">
+        <span class="spot"><%= link_to 'Artwork', artworks_path %></span>
+      </div>
+    </svg>
+  </div>
+
+  <div class="svg-wrapper">
+    <svg height="90" width="190" xmlns="http://www.w3.org/2000/svg">
+      <rect id="shape" height="50" width="190" />
+        <div id="text-size">
+        <span class="spot"><%= link_to 'About + Contact', aboutcontacts_path %></span>
+      </div>
+    </svg>
+  </div>
+</div> 
