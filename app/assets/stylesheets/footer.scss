@@ -1,0 +1,18 @@
+footer {
+    background: #87ff3d;
+    font-size: 12px;
+    line-height: 1.3em;
+    color: #ff85b4;
+    height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-weight: 700;
+    position: relative;
+    z-index: 500;
+}
+
+footer .inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
